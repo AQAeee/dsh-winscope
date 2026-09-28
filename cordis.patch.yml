@@ -1,0 +1,19 @@
+# dsh-winscope bundle patch
+#
+# When installed through the official CLI:
+#
+#   dsh plugin --profile web add dsh-winscope
+#
+# the command sees this declaration and appends `dsh-winscope` to the profile
+# bundle stack; the profile boot then merges this patch (a single `insert` of
+# the plugin row). No profile file edits needed.
+#
+# The client graph row id (and the bundle's self-registration id under
+# window.__ModuleLoader__) equals the entry name `dsh-winscope`.
+#
+# winscopeDist is left unset: the plugin serves the WinScope build bundled
+# with it (winscope-dist/). Set `config.winscopeDist` here (or in the user's
+# profile cordis.patch.yml) only to point at an external build directory.
+- insert:
+    - id: dsh-winscope
+      name: 'dsh-winscope'
