@@ -39,7 +39,7 @@
     "watch": "tsdown --watch",
     "typecheck": "tsc --noEmit"
   },
-  "license": "Apache-2.0",
+  "license": "GPL-3.0-only",
   "peerDependencies": {
     "@deepseek-ai/cordis": "^4.0.1",
     "react": "^18.2.0"
