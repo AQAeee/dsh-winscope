@@ -1,7 +1,7 @@
 {
   "name": "dsh-winscope",
   "version": "0.1.0",
-  "description": "DSH web plugin: embed WinScope (Android graphics debugging) as right-sidebar panels A/B with AI tools to read trace data and drive the timeline.",
+  "description": "DSH web plugin: embed WinScope (Android graphics debugging) as right-sidebar panels A/B with AI tools to read trace data and drive the timeline. 将 WinScope 嵌入 DSH 右侧栏 A/B 双面板，并提供 AI 工具读取 trace 数据、驱动时间轴。",
   "type": "module",
   "main": "lib/index.js",
   "exports": {

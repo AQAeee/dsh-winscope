@@ -1,5 +1,7 @@
 # dsh-winscope
 
+**English** | [简体中文](README.zh-CN.md)
+
 A DSH web plugin that embeds [WinScope](https://source.android.com/docs/core/graphics/winscope)
 (Android graphics debugging) into the DSH right sidebar as two independent
 panels — **WinScope A** and **WinScope B** — and exposes a set of `winscope_*`
