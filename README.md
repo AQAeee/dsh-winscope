@@ -1,6 +1,6 @@
 # dsh-winscope
 
-[English](README.md) | **简体中文**
+[English](README.en.md) | **简体中文**
 
 一个 DSH Web 插件：把 [WinScope](https://source.android.com/docs/core/graphics/winscope)
 （Android 图形调试工具）嵌入 DSH 右侧栏，提供两个彼此独立的
