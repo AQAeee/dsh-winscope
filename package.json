@@ -32,7 +32,8 @@
     "lib/*.js.map",
     "cordis.patch.yml",
     "winscope-dist/**",
-    "README.md"
+    "README.md",
+    "README.en.md"
   ],
   "scripts": {
     "build": "node -e \"require('node:fs').rmSync('lib',{recursive:true,force:true})\" && tsdown",
