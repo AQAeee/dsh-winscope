@@ -12,6 +12,11 @@ the agent to explain what changed between them.
 
 ## Features
 
+- **The AI reads WinScope data directly.** WinScope's hierarchy trees, node
+  properties, and timeline are exposed to the agent through tools, so it can
+  list traces, read any node's properties, track how a property changes over
+  time, and seek the timeline on its own — no manual screenshots or
+  copy-pasting.
 - **Two sidebar panels.** Each panel hosts its own WinScope iframe, so A and B
   keep independent trace sets, selections, and timeline positions.
 - **Built-in ADB proxy.** The Python `winscope_proxy.py` flow is re-implemented

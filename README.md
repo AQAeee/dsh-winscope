@@ -12,6 +12,10 @@
 
 ## 特性
 
+- **AI 直接读取 WinScope 数据。** 插件把 WinScope 的层级树、节点属性与
+  时间轴数据通过工具开放给 AI：Agent 可以自行列举 trace、读取任意节点的属性、
+  跟踪某个属性随时间的变化，并把时间轴移到关注的时刻——不需要人工截图或
+  复制粘贴数据。
 - **两个侧栏面板。** 每个面板承载自己的 WinScope iframe，因此 A / B 各自
   保有独立的 trace 集合、选中节点与时间轴位置。
 - **内置 ADB 代理。** 用 Node 重新实现了 Python 版 `winscope_proxy.py` 的
@@ -22,6 +26,9 @@
 - **自带 WinScope 构建。** Release 包内附带可直接服务的 WinScope 构建；
   也可以通过配置改为指向外部构建目录。
 
+## 界面演示
+![alt text](images/1.png)
+![alt text](images/2.png)
 ## 环境要求
 
 | 依赖 | 说明 |
