@@ -2,7 +2,7 @@
 
 **English** | [简体中文](README.md)
 
-A DSH web plugin that embeds [WinScope](https://source.android.com/docs/core/graphics/winscope)
+A DSH web plugin that embeds [WinScope](https://source.android.google.cn/docs/core/graphics/winscope/overview)
 (Android graphics debugging) into the DSH right sidebar as two independent
 panels — **WinScope A** and **WinScope B** — and exposes a set of `winscope_*`
 AI tools so the agent can read the loaded traces and drive the timeline.

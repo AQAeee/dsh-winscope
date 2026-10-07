@@ -2,13 +2,18 @@
 
 [English](README.en.md) | **简体中文**
 
-一个 DSH Web 插件：把 [WinScope](https://source.android.com/docs/core/graphics/winscope)
+[WinScope](https://source.android.google.cn/docs/core/graphics/winscope/overview?hl=zh-cn) 是一款 Web 工具，可以让用户在动画和转换期间和之后记录、重放和分析多个系统服务的状态。Winscope 将所有相关的系统服务状态记录在一个跟踪文件中。使用带有跟踪文件的 Winscope 界面，您可以通过重放、单步执行和调试过渡来针对每个动画帧检查这些服务的状态（无论是否有屏幕录制）。
+
+**总的来说 Winscope 是一个谷歌出的用于调试 Android 图形服务的 Web 工具，用来分析闪屏、黑屏等安卓显示问题，但是只支持 Linux 平台，不支持 Windows 平台。
+项目在之前是将安卓16的winscope适配到了Windows平台，这次是将winscope嵌入到DeepSeek Harness中，让AI能直接读取界面信息来分析问题，并且将原来的winscope_proxy.py也改为了node程序，可以不需要python就实现日志的实时抓取、界面查看等功能。**
+
+一个 DSH Web 插件：把 [WinScope](https://source.android.google.cn/docs/core/graphics/winscope/overview?hl=zh-cn)
 （Android 图形调试工具）嵌入 DSH 右侧栏，提供两个彼此独立的
 **WinScope A** 与 **WinScope B** 面板，并暴露一组 `winscope_*` AI 工具，
 让 Agent 能读取已加载的 trace 并驱动时间轴。
 
 你可以并排加载两份 trace（两台设备，或改动前后各一份），然后让 Agent
-解释两者之间发生了什么变化。
+分析问题。
 
 ## 特性
 
